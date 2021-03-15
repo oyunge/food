@@ -9,7 +9,7 @@ import Footer from './components/Footer';
  
  
 function App() {
-  return (
+  return ( 
     <Router>
       <GlobalStyle/>
       <Hero/>
@@ -19,7 +19,6 @@ function App() {
 <Footer />
     </Router>
   );
-}
+} 
 
 export default App;
- 
