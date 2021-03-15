@@ -7,7 +7,7 @@ import {productData, productDataTwo} from './components/Products/data'
 import Feature from './components/Feature';
 import Footer from './components/Footer';
  
-
+ 
 function App() {
   return (
     <Router>
@@ -22,6 +22,4 @@ function App() {
 }
 
 export default App;
-
-
-//adding styled components
+ 
