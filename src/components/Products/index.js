@@ -11,6 +11,8 @@ import {
   ProductPrice,
   ProductButton
 } from './ProductsElements';
+import { Switch, Route } from 'react-router-dom';
+
 
 const Products = ({ heading, data }) => {
   return (

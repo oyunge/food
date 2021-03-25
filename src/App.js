@@ -6,7 +6,8 @@ import Products from './components/Products';
 import {productData, productDataTwo} from './components/Products/data'
 import Feature from './components/Feature';
 import Footer from './components/Footer';
- 
+import Beverages from './components/Beverage/Beverages';
+
  
 function App() {
   return ( 
@@ -16,6 +17,8 @@ function App() {
       <Products heading='Choose your favourite' data={productData} />
       <Feature />
       <Products heading='Sweet Treats for You' data={productDataTwo} />
+     {/* <Beverages /> */}
+
 <Footer />
     </Router>
   );
