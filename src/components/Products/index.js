@@ -11,7 +11,7 @@ import {
   ProductPrice,
   ProductButton
 } from './ProductsElements';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route ,Link} from 'react-router-dom';
 
 
 const Products = ({ heading, data }) => {
@@ -27,7 +27,9 @@ const Products = ({ heading, data }) => {
                 <ProductTitle>{product.name}</ProductTitle>
                 <ProductDesc>{product.desc}</ProductDesc>
                 <ProductPrice>{product.price}</ProductPrice>
+                <Link to="/Beverages">
                 <ProductButton>{product.button}</ProductButton>
+               </Link>
               </ProductInfo>
             </ProductCard>
           );
