@@ -4,25 +4,27 @@ import product3 from '../../images/product-3.jpg';
 import sweet1 from '../../images/sweet3.jpg';
 import sweet2 from '../../images/sweet-2.jpg';
 import sweet3 from '../../images/sweet-3.jpg';
+import tea from '../../images/tea.jpg';
+
 
 export const productData = [
   {
-    img: product1, 
+    img: tea, 
     alt: 'Pizza',
     name: 'Beverages',
     desc:
-      'Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      'Kenyan Brewed Tea , Special Tea , Masala Tea , Poridge , Hot Chocolate , Plain Milk'  ,
     // price: '$19.99',
-    button: 'Place Order'
+    button: 'View'
   },
   {
     img: product2,
     alt: 'Pizza',
     name: 'Main Course',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      ' Smoked Bbbq chiken,Pulled Beef, Grilled Vegetable, Smoked Salmon, Grille Tuna',
     // price: '$16.99',
-    button: 'Place Order'
+    button: 'View'
   },
   {
     img: product3,
@@ -31,7 +33,7 @@ export const productData = [
     desc:
       ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
     // price: '$14.99',
-    button: 'Place Order'
+    button: 'View'
   }
 ];
 
